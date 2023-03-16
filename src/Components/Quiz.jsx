@@ -11,7 +11,7 @@ const Quiz = () => {
   const [score,setScore] = useState(0)
   const [clickedOption, setClickedOption] = useState(0)
   const [showResult, setShowResult] = useState(false)
-  const [display, setDisplay] = useState()
+  const [display, setDisplay] = useState("")
 
   const upDateScore = ()=>{
     if(clickedOption === context[currentQuestion].answer){
